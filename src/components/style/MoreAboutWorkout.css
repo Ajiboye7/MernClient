@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50; /* Dark blue */
+    margin-bottom: 30px;
+  }
+  
+  .exercise-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .exercise-card {
+    background-color: #f5f5f5; /* Light grey */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exercise-name {
+    font-size: 1.8rem;
+    color: #e74c3c; /* Red */
+    margin-bottom: 15px;
+  }
+  
+  .exercise-details {
+    font-size: 1.1rem;
+    color: #333; /* Dark grey */
+    margin-bottom: 10px;
+  }
+  
+  .exercise-difficulty {
+    font-weight: bold;
+    color: #27ae60; /* Green */
+  }
+  
+  .exercise-equipment {
+    font-style: italic;
+    color: #3498db; /* Blue */
+  }
+  
+  .exercise-instructions {
+    font-weight: bold;
+    color: #2c3e50;
+    line-height: 35px;
+  }
+  
+  .exercise-type {
+    font-weight: bold;
+    color: #e67e22; /* Orange */
+  }
+  
